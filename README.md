@@ -96,10 +96,11 @@ python3 manage.py runserver
     API_Youtube            
     .
     ├── Contains       
-    |   ├── Screenshots       # Contain screenshots of the project and other images
+    |   ├── Images            # Contain screenshots of the project and other images
     │   ├── API               # The main Django app/api containing the models, views, serializers etc
     │   ├── API_Youtube       # All the settings and url routes settings of the REST API
     |   ├── db.sqlite3        # SQLite database housing the data of the videos fetched
     │   └── manage.py         # Python code used for starting the app by establishing DRF server
     |   └── requirements.txt  # Requirements file
     |______________________   
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://github.com/yashikajotwani12/API_Youtube)
