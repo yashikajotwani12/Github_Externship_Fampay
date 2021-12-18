@@ -12,7 +12,8 @@ Fampay - Backend Assignment Extern
 
 To make an API to fetch latest videos sorted in reverse chronological order of their publishing date-time from YouTube for a given tag/search query in a paginated response.
 
-**Screenshots:**
+
+### Screenshots :computer:
 
 | ![Add-1](API_Youtube/Images/Json_Format_.png)  |  ![ADD-2](API_Youtube/Images/API1.png) |
 |:---:|:---:|
@@ -75,7 +76,7 @@ $ python manage.py runserver
 </details>
 
 
-## Usage
+## Usage :label:
 
 Run the manage.py file:
 
