@@ -26,21 +26,54 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
 |:---:|:---:|
 | YoutubeApi_keys | Single Video View |
 
-## Instructions for Setup
+## Setting Up 🔨
 
-Clone the repo and install Requirements :
+ <details>
+  <summary><strong>Setup Steps</strong></summary>
 
-```bash
-git clone https://github.com/yashikajotwani12/API_Youtube
-cd API_Youtube
-pip3 install -r requirements.txt (Install the requirements preferrably in Virtual environment)
+- Clone the Repository
+ ```
+$ git clone https://github.com/yashikajotwani12/API_Youtube
+ ```
+- Go the the folder
+ ```
+$ cd API_Youtube
+ ```
+- Setup Virtual environment
+ ```
+$ python3 -m venv env
 ```
-
-Modify settings.py File - Remove the existing keys and add your own YouTube Data API keys in the form [key1, key2, ...]:
-
-```bash
-API_KEYS = ['Google_API_Key_1', 'Google_API_Key_2','Google_API_Key_3',] 
+- Activate the virtual environment
 ```
+$ source env/bin/activate
+```
+- Install dependencies using
+```
+$ pip install -r requirements.txt
+```
+- Modify settings.py File - Remove the existing keys and add your own YouTube Data API keys in the form [key1, key2, ...]:
+```
+$ API_KEYS = ['Google_API_Key_1', 'Google_API_Key_2','Google_API_Key_3',] 
+```
+- Make migrations using
+```
+$ python manage.py makemigrations
+```
+- Migrate Database
+```
+$ python manage.py migrate
+```
+- Create a superuser
+```
+$ python manage.py createsuperuser
+```
+- Run server using
+```
+$ python manage.py runserver
+``` 
+  
+</details>
+
 
 ## Usage
 
