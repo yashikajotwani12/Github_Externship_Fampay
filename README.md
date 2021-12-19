@@ -14,7 +14,7 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
 
 ## About it :scroll:	
 
-* choose any search query, for example: official, cricket, football and GET API http://localhost:8000/api/youtube/ will returns the stored video data in a paginated response sorted in descending order of published datetime.
+* choose any search query, for example: official, cricket, football and GET API will returns the stored video data in a paginated response sorted in descending order of published datetime.
 * Added support for supplying multiple API keys so that if quota is exhausted on one, it automatically uses the next available key.
 
 ## Tech Stack :memo:
